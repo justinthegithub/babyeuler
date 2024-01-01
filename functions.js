@@ -8,4 +8,7 @@ function multiples(multipleOf, max) {
     return multiplesOfArray
 }
 
-console.log(multiples(2, 10))
+
+function addArray(theArray) {
+
+}
