@@ -8,7 +8,15 @@ function multiples(multipleOf, max) {
     return multiplesOfArray
 }
 
+function reduceDuplicates (firstArray, secondArray) {
+    
+}
 
 function addArray(theArray) {
+    let total=0
+    for (let i=0; i<theArray.length;i++){
+        total +=i;
+    }
+    return total;
 
 }
