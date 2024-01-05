@@ -8,8 +8,27 @@ function multiples(multipleOf, max) {
     return multiplesOfArray
 }
 
+function smallerNumber(firstNumber, secondNumber){
+    let smallerNumber=0;
+    if (firstNumber < secondNumber) {
+        smallerNumber = firstNumber;
+    }
+    else{
+        smallerNumber = secondNumber;
+    }
+    return smallerNumber;
+}
+
+function commonDivisor(firstNumber, secondNumber) {
+    let commonDivisor=[];
+
+
+}
+
+
 function reduceDuplicates (firstArray, secondArray) {
-    
+  
+
 }
 
 function addArray(theArray) {
@@ -20,3 +39,5 @@ function addArray(theArray) {
     return total;
 
 }
+
+
