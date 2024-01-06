@@ -1,0 +1,20 @@
+{
+  "name": "babyeuler",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "firstten.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinthegithub/babyeuler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinthegithub/babyeuler/issues"
+  },
+  "homepage": "https://github.com/justinthegithub/babyeuler#readme"
+}

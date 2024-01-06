@@ -8,15 +8,15 @@ function multiples(multipleOf, max) {
     return multiplesOfArray
 }
 
-function smallerNumber(firstNumber, secondNumber){
-    let smallerNumber=0;
+export function smallerNumber(firstNumber, secondNumber){
+    let thesmallerNumber=0;
     if (firstNumber < secondNumber) {
-        smallerNumber = firstNumber;
+        thesmallerNumber= firstNumber;
     }
     else{
-        smallerNumber = secondNumber;
+        thesmallerNumber = secondNumber;
     }
-    return smallerNumber;
+    return thesmallerNumber;
 }
 
 function commonDivisor(firstNumber, secondNumber) {
@@ -39,5 +39,7 @@ function addArray(theArray) {
     return total;
 
 }
-
+export function test(){
+    console.log("working");
+}
 
