@@ -120,6 +120,12 @@ console.log(basicFunctions.smallerNumber(1,3))
 // There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 // Find the product abc.
 
+//TO DO. 
+
+
 // Problem 10: Summation of primes
 // The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 // Find the sum of all the primes below two million.
+
+//TODO: Find Prime under maximum
+//TODO: Add all ellements 
