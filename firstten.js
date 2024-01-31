@@ -7,10 +7,20 @@ import * as basicFunctions from './basicfunctions.js';
  we get 3, 5, 6 and 9. The sum of these multiples is 23.
  Find the sum of all the multiples of 3 or 5 below 1000.*/
 
-console.log('problem 1')
-console.log(basicFunctions.test())
 
-console.log(basicFunctions.smallerNumber(1,3))
+function problemOne(a,b,max) {
+let sum = 0;
+
+for (let i=0;i<=max;i++) {
+   if(i%a === 0 || i%b===0){
+      sum+=i;
+   }
+}
+return sum;
+
+}
+
+console.log(problemOne(3,5,1000))
 
 
 
